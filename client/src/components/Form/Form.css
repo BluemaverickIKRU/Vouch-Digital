@@ -1,0 +1,32 @@
+.titleBox {
+  text-align: center;
+  margin-top: 10em;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+
+.inputField {
+  margin: 0.5em;
+}
+
+.footer1 {
+  margin-top: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer1 p {
+  margin: 4em 1em 0 0;
+}
+
+.footer2 {
+  text-align: center;
+  margin: 0;
+}

@@ -1,0 +1,20 @@
+.backGround {
+  background-image: url('https://freefrontend.com/assets/img/html-funny-404-pages/HTML-404-Page.gif');
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.redirect {
+  font-size: large;
+  position: absolute;
+  top: 2em;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-decoration: underline;
+  font-family: monospace;
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.side-menu-container {
+  position: relative;
+  height: 97vh;
+}
+
+.title-and-search {
+  margin-left: 0.8em;
+}
+
+.side-menu-search {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 10em;
+  padding: 0.2em;
+}
+
+.side-menu-search input {
+  border: none;
+  outline: none;
+}
+
+.options-menu p {
+  margin: 0 0 0.3em 1em;
+  cursor: pointer;
+  padding: 0.2em;
+  padding-left: 0.5em;
+  border-radius: 8px;
+}
+
+.footer-side {
+  position: absolute;
+  bottom: 0.5em;
+  left: 1em;
+}
+
+.footer-side h3,
+.footer-side p {
+  margin: 0.3em;
+}
+
+.footer-side h3 {
+  font-weight: 700;
+}
+
+.footer-side p {
+  font-size: small;
+}
+
+.logout-btn {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  cursor: pointer;
+}

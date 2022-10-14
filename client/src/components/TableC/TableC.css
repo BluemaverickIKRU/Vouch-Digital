@@ -1,0 +1,13 @@
+.title h1,
+.title p {
+  margin: 0.1em;
+}
+
+.table {
+  width: 85%;
+  margin: 1em auto;
+}
+
+.table-cell {
+  background-color: blue;
+}

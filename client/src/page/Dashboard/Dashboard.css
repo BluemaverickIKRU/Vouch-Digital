@@ -1,0 +1,12 @@
+.dashboard-container {
+  display: flex;
+}
+
+.side-menu {
+  width: 15vw;
+}
+
+.table,
+.client-form {
+  width: 85w;
+}

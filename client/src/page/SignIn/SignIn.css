@@ -1,0 +1,82 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.formContainer {
+  width: 40%;
+  min-width: 380px;
+  height: 100vh;
+}
+
+.asideContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background: #457fca; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #5691c8,
+    #457fca
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #5691c8,
+    #457fca
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 60%;
+}
+
+.asideContainer div h3 {
+  font-size: 1.5em;
+  color: azure;
+}
+
+.asideContainer div p {
+  font-size: smaller;
+  margin: 0 1em;
+  color: azure;
+}
+
+/* Media queries part ! */
+
+@media only screen and (max-width: 1128px) {
+  .banner {
+    width: 400px;
+  }
+
+  .asideContainer {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .banner {
+    width: 400px;
+  }
+
+  .asideContainer {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .formContainer {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .asideContainer {
+    display: none;
+  }
+
+  .formContainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
